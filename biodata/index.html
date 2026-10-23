@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Mahasiswa</title>
+    <!-- Import Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <!-- Badge Status -->
+        <span class="badge">Mahasiswi Active</span>
+
+        <!-- Foto Profil -->
+        <div class="profile-frame">
+            <img src="foto.png" alt="Foto Profil" class="profile-img">
+        </div>
+
+        <!-- Informasi Utama -->
+        <h1>Biodata Mahasiswa</h1>
+        <div class="info-group">
+            <div class="info-item">
+                <span class="label">Nama</span>
+                <span class="colon">:</span>
+                <span class="value">Fitri Liyani</span>
+            </div>
+            <div class="info-item">
+                <span class="label">NIM</span>
+                <span class="colon">:</span>
+                <span class="value">24552011166</span>
+            </div>
+            <div class="info-item">
+                <span class="label">Program Studi</span>
+                <span class="colon">:</span>
+                <span class="value">Teknik Informatika</span>
+            </div>
+            <div class="info-item">
+                <span class="label">Alamat</span>
+                <span class="colon">:</span>
+                <span class="value">Sumedang, Jawa Barat</span>
+            </div>
+        </div>
+
+        <!-- Daftar Hobi -->
+        <h3>Hobi & Minat</h3>
+        <ul class="hobi-list">
+            <li><span>✦</span> Membaca</li>
+            <li><span>✦</span> Menulis</li>
+            <li><span>✦</span> Mendengarkan Musik</li>
+        </ul>
+
+        <!-- Tabel Riwayat Pendidikan -->
+        <h3>Riwayat Pendidikan</h3>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tingkat</th>
+                        <th>Nama Sekolah / Kampus</th>
+                        <th>Tahun</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="tag">SMP</span></td>
+                        <td>SMP Al Amah Plus Cimanggung</td>
+                        <td>2018 - 2021</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag">SMA</span></td>
+                        <td>SMA Negeri 1 Cimanggung</td>
+                        <td>2021 - 2024</td>
+                    </tr>
+                    <tr>
+                        <td><span class="tag active">S1</span></td>
+                        <td>Universitas Teknologi Bandung</td>
+                        <td>2024 - Sekarang</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Tombol Pesan Interaktif -->
+        <button onclick="tampilkanPesan()">Mari berkenalan dengan saya</button>
+    </div>
+
+   <script>
+    function tampilkanPesan() {
+        alert("Halo! Selamat datang di website biodata saya \nIngin tahu saya lebih lanjut? Follow Instagram saya: @fitriilyn_");
+    }
+</script>
+
+</body>
+</html>
