@@ -3,7 +3,7 @@
 Proyek ini adalah tugas pembuatan website biodata diri yang simpel, estetik dengan tema *warm brown*, dan responsif.
 
 ## 📱 Tampilan Website
-![Screenshot Website](biodata/foto.png)
+<img width="1600" height="900" alt="Tampilan web" src="https://github.com/user-attachments/assets/26ff4918-3781-47ee-b2c4-f3421fafb6b0" />
 
 ## 🛠️ Teknologi yang Digunakan
 * **HTML5** - Struktur halaman web
